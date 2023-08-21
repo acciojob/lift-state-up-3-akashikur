@@ -13,6 +13,7 @@ function ParentComponent() {
 
   return (
     <div className="parent">
+      <h1>Parent Component</h1>
       <ChildComponent
         option="Option 1"
         onClick={() => handleOptionClick("Option 1")}
